@@ -9,17 +9,26 @@ This project is about creating a COVID-19 data visualization dashboard using Nex
 4. Go to `http://localhost:3000` to see running project.
 5. If components does not respond, please refresh the page.
 
-## Learn More
+## Important folders
 
-To learn more about Next.js, take a look at the following resources:
+### 1. components
+This folder includes all components that are required in this project. It includes various folders and files. They are:-
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**I. charts** - It include all chart component files.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**II. icons** - It include moon and sun icon files for theme switcher.
 
-## Deploy on Vercel
+**III. table** - It include table component file.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**IV.** **DashboardCard.js**, **NavComp.js**, **Sidebar.js**, **SidebarComp.js** and **ThemeSwitcher.js**  these corresponding files includes cards for dashboard, Navbar, Sidebar, elements of sidebar and theme switcher.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### 2. data
+This folder includes 1 file **data.js**, which contains dummy COVID-19 data for the visualization.
+
+### 3. src\app
+
+This folder include all routes folders, layout.js, Providers.js for theme switching, page.js for home page etc.
+
+**I. charts** - This route folder navigates to show various charts including line chart, bar chart and date range picker.
+
+**II. statistics** - This route folder navigates to show data table.
