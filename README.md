@@ -1,14 +1,13 @@
+## About
 This project is about creating a COVID-19 data visualization dashboard using NextUI in next.js. The dashboard display various charts and statistics using COVID data to analyse various aspects like total cases, deaths, recoveries and new cases.
 
 ## Steps to run project
 
 1. Download the repository manually or open a empty folder in your terminal or command prompt and run ```git clone https://github.com/Abhishekkumar200/COVID-19-Data-Visualization-Dashboard-in-NextUI.git```. This will download the repository in current open folder.
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. Open the downloaded folder in VS Code or any other editor. And run the command ```npm install``` in your editor terminal, it will install the node modules and other dependencies.
+3. Now, type ```npm run dev```  to run the project.
+4. Go to `http://localhost:3000` to see running project.
+5. If components does not respond, please refresh the page.
 
 ## Learn More
 
