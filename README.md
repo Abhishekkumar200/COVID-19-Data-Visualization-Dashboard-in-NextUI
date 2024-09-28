@@ -32,3 +32,18 @@ This folder include all routes folders, layout.js, Providers.js for theme switch
 **I. charts** - This route folder navigates to show various charts including line chart, bar chart and date range picker.
 
 **II. statistics** - This route folder navigates to show data table.
+
+## Snapshots
+
+### 1. Home page
+
+![image](https://github.com/user-attachments/assets/23f87f2d-25c9-4000-82c8-09c29dd31053)
+
+### 2. Statistics page
+
+![image](https://github.com/user-attachments/assets/10b4621e-ec24-4632-b97e-6c05b1a01080)
+
+### 3. Charts page
+
+![image](https://github.com/user-attachments/assets/39ed1b1b-3ceb-45c3-ab6a-d8b626140f3c)
+
